@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="page">
+        <div class="input">
+            <label for="numberPlayers"></label>
+            <input type="number" name='numberPlayers' id="numberPlayers">
+        </div>
+        <div id="players">
+        </div>
+    
+        <div class="buttons">
+            <button onclick="renderPlayers()" id='btnVictoryna'>RenderPlayers</button>
+            <button onclick="reset()" id='btnReset'>Reset</button>
+        </div>
+        <p id='demo'></p>
+    </section>
+    <script src='./victoryna.js'></script>
+</body>
+</html>

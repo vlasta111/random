@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="page">
+            
+        <div class="input">
+            <label for="passLength">Довжина</label>
+            <input id="passLength" type="number" placeholder="enter length">
+        </div>
+        <div class="input">
+            <label for="numbers">Числа</label>
+            <input type="checkbox" name="numbers" id="numbers">
+        </div>
+        <div class="input">
+            <label for="liters">Літери</label>
+            <input type="checkbox"  name="liters" id="liters">
+        </div>
+        <div class="input">
+            <label for="big">big</label>
+            <input name="Uppercase" id="big" type="checkbox">
+            <label for="small">small</label>
+            <input name="Uppercase" id="small" type="checkbox">
+        </div>
+        <div class="buttons">
+            <button class="genBtn"id="button"onClick="generPassword()">start</button>
+        </div>
+
+    <p id="demo">Your password</p>
+    <p id='error'></p>
+    </section>
+    
+
+
+
+    <script src="./passgenerator.js"></script>
+</body>
+</html>

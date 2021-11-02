@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    background:#6E88E0;
+    background: linear-gradient(287.45deg, #433846 16.7%, #6E88E0 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text{
+    margin-bottom: 3%;
+    width: 500px;
+}
+
+.links a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #FFBE5C ;
+    padding: 10px 60px;
+}
+
+label{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+.genBtn,
+#btnVictoryna,
+#btnReset{
+    width: 120px;
+    height: 30px;
+}
+#demo{
+    color: #fff;
+    font-size: 30px;
+    width: 310px;
+}
+
+#error{
+    color: greenyellow;
+    font-size: 20px;
+}
